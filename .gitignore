@@ -14,6 +14,10 @@ rme
 rme.cfg
 data/user
 
+# exe and dll
+*.dll
+*.exe
+
 # Visual Studio
 *.MAP
 *.user
@@ -46,3 +50,6 @@ xcuserdata
 # CLion
 .idea/
 cmake-build-debug/
+
+# Notepad++
+*.bak
