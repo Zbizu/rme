@@ -77,6 +77,7 @@
 		<otb client="12.71" version="3" id="59"/>
 		<otb client="12.81" version="3" id="60"/>
 		<otb client="12.85" version="3" id="61"/>
+		<otb client="12.86" version="3" id="62"/>
 	</otbs>
 
 	<clients>
@@ -276,7 +277,7 @@
 			<data format="10.57" dat="0x38DE" spr="0x5525213D"/>
 		</client>
 
-		<client name="10.98" otb="10.98" default="true" visible="true" data_directory="1098">
+		<client name="10.98" otb="10.98" visible="true" data_directory="1098">
 			<otbm version="3"/>
 			<extensions from="8.20 - 8.31" to="10.98"/>
 			<data format="10.57" dat="0x42A3" spr="0x57BBD603"/>
@@ -287,25 +288,31 @@
             <extensions from="8.20 - 8.31" to="10.100"/>
             <data format="10.57" dat="0x44BA" spr="0x585138E5"/>
 		</client>
-		
+
 		<client name="12.71 - 12.72" otb="12.71" visible="true" data_directory="1271">
             <otbm version="3"/>
             <extensions from="8.20 - 8.31" to="12.71 - 12.72"/>
             <data format="10.57" dat="0x4A10" spr="0x59E48E02"/>
 		</client>
-		
+
 		<client name="12.81" otb="12.81" visible="true" data_directory="1281">
             <otbm version="3"/>
             <extensions from="8.20 - 8.31" to="12.81"/>
             <data format="10.57" dat="0x4A10" spr="0x59E48E02"/>
 		</client>
-		
+    
 		<client name="12.85" otb="12.85" visible="true" data_directory="1285">
             <otbm version="3"/>
             <extensions from="8.20 - 8.31" to="12.85"/>
             <data format="10.57" dat="0x4A10" spr="0x59E48E02"/>
 		</client>
-	</clients>
+    
+		<client name="12.86" otb="12.86" visible="true" default="true" data_directory="1286">
+            <otbm version="3"/>
+            <extensions from="8.20 - 8.31" to="12.86"/>
+            <data format="10.57" dat="0x4A10" spr="0x59E48E02"/>
+		</client>
+  </clients>
 
 	<conversions>
 		<!-- Used by the editor to figure out when to run conversions -->
